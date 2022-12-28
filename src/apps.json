@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "PerfectZap",
+            "script": "./server.js",
+            "node_args": "--max_old_space_size=8192"
+        }
+    ]
+}

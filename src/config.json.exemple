@@ -1,0 +1,42 @@
+{
+  "port": "8080",
+  "session": {
+      "startAllSessions": true,
+      "sessions": ["your-session-name-1"], "your-session-name-2"]
+  },
+  "storage": {
+      "active": false,
+      "name": "tokens"
+  },
+  "archive": {
+    "enable": false,
+    "everyMilliseconds": 50000,
+    "waitMilliseconds": 100,
+    "daysToArchive": 0,
+    "daysToDelete": 2
+  },
+  "browserArgs": ["--disable-web-security", 
+    "--no-sandbox", 
+    "--disable-web-security", 
+    "--aggressive-cache-discard", 
+    "--disable-cache", 
+    "--disable-application-cache", 
+    "--disable-offline-load-stale-cache", 
+    "--disk-cache-size=0", 
+    "--disable-background-networking", 
+    "--disable-default-apps", 
+    "--disable-extensions", 
+    "--disable-sync", 
+    "--disable-translate", 
+    "--hide-scrollbars", 
+    "--metrics-recording-only", 
+    "--mute-audio", 
+    "--no-first-run", 
+    "--safebrowsing-disable-auto-update", 
+    "--ignore-certificate-errors", 
+    "--ignore-ssl-errors", 
+    "--incognito",
+    "--ignore-certificate-errors-spki-list"],
+  "createOptions": {
+  }
+}
